@@ -96,6 +96,22 @@ const actions = {
     'myGroupChannelList': {
         method: GET,
         endpoint: '/{user_id}/my_group_channels'
+    },
+    'createMetadata': {
+        method: POST,
+        endpoint: '/{user_id}/metadata'
+    },
+    'updateMetadata': {
+        method: PUT,
+        endpoint: '/{user_id}/metadata'
+    },
+    'viewMetadata': {
+        method: GET,
+        endpoint: '/{user_id}/metadata'
+    },
+    'deleteMetadata': {
+        method: DELETE,
+        endpoint: '/{user_id}/metadata'
     }
 };
 
